@@ -1,0 +1,141 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: greenyellow;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+nav {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.hero {
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    text-align: center;
+    color: white;
+    padding: 100px 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 24px;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.gallery-item {
+    margin: 10px;
+    width: 250px;
+    height: 250px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+}
+
+#about {
+    padding: 20px;
+}
+
+#about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+#contact {
+    padding: 20px;
+}
+
+#contact h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contact form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+#contact label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#contact textarea {
+    height: 100px;
+}
+
+#contact button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+}
+.home {
+    margin-bottom: 20px;
+    text-decoration-color: black;
+}
